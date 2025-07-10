@@ -1,0 +1,6 @@
+veeva-live-summarizer/
+├── app.py
+├── requirements.txt
+└── .streamlit/
+    └── secrets.toml
+    
