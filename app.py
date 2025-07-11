@@ -29,7 +29,7 @@ today = datetime.date.today().isoformat()
 query = f"""
 SELECT Id, Account_vod__r.Name, Next_Call_Notes_vod__c
 FROM Call2_vod__c
-WHERE CreatedDate = TODAY
+WHERE CreatedDate = THIS_MONTH
 LIMIT 10
 """
 
